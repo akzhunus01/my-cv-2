@@ -1,0 +1,25 @@
+body {
+  background-color: bisque;
+  font: 200 medium Franklin Gothic Medium;
+}
+#avatar {
+  width: 200px;
+  height: auto;
+  border-radius: 20%;
+}
+.photo {
+  width: 100px;
+  height: auto;
+  border-radius: 20%;
+}
+h1 {
+  text-align: center;
+}
+.groups {
+  color: black;
+  background-color: beige;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
