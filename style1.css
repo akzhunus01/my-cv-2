@@ -1,0 +1,16 @@
+body{background-color: beige;
+      color: black;
+      font-weight: 100;
+      font-size: large;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}
+    form {
+      background-color: white;
+      margin: 50px;
+    }
+#one{background-color: beige;}
+    #mba{
+        margin: 100px;
+        padding: auto;
+      }
+  #container{text-align: center;}
+  
