@@ -1,0 +1,36 @@
+@use 'variables';
+
+@import './variables';
+@import './header';
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: $mainColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+  padding: 150px;
+  .box {
+    width: 50px;
+    height: 50px;
+    background-color: $secondColor;
+    font-size: $fontsize ;
+    text-align: center;
+    color: black;
+  margin: 100px;
+  padding: 100px;
+ 
+  }
+}
+h1{
+    border: variables.$border;
+    text-align: center;
+}
